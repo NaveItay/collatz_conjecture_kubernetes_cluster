@@ -1,1 +1,8 @@
-# collatz_conjecture_kubernetes_cluster
+# Collatz conjecture kubernetes cluster
+
+## introduction
+
+A Kubernetes cluster is a set of nodes that run containerized applications. Containerizing applications packages an app with its dependences and some necessary services. They are more lightweight and flexible than virtual machines.
+
+This reposity will guide you how to set an application containerized and deployed on Kubernetes.
+
