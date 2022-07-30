@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
       - name: example-app
-        image: naveitayx/python:1.0.0
+        image: naveitayx/collatz_conjecture:1.0.0
         imagePullPolicy: Always
         ports:
         - containerPort: 80

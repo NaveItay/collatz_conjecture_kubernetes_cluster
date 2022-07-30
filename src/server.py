@@ -3,8 +3,8 @@ from fastapi import FastAPI
 app = FastAPI()
 
 
-@app.get("/clean")
-def clean(number: int):
+@app.get("/collatz_conjecture")
+def get_collatz_conjecture(number: int):
     interactions_number = 0
     answer = "Answer: "
 
