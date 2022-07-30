@@ -129,9 +129,10 @@ Install Kubernetes via docker desktop.
 To test whether it works
 ```
 $ kubectl get nodes
-
-![title](/guide_images/get_nodes.PNG)
 ```
+![title](/guide_images/get_nodes.PNG)
+
+
 
 
 
