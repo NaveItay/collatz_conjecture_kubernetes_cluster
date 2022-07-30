@@ -16,7 +16,7 @@ This reposity will guide you how to set an application containerized and deploye
   - 4. Create a docker-compose.yaml
   - 5. Build Process
   - 6. Starting the app
-  - 7. Install Kubernetes command-line tool (kubectl)
+  - 7. Install Kubernetes command-line tool (kubectl) and add it to PATH env variables
 
 <p>
 <br />
@@ -113,9 +113,9 @@ $ docker-compose build collatz_conjecture
 docker-compose up collatz_conjecture
 ```
 
-###### 7. Install Kubernetes command-line tool (kubectl)
+###### 7. Install Kubernetes command-line tool (kubectl) and add it to PATH env variables
 [kubernetes.io](https://kubernetes.io/docs/tasks/tools/install-kubectl-windows/)
-
+![title](/guide_images/kubectl.PNG)
 
 
 
