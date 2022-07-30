@@ -1,4 +1,4 @@
-# Collatz conjecture kubernetes cluster
+# kubernetes cluster setup guide
 ![title](/guide_images/intro.png)
 
 ## introduction
