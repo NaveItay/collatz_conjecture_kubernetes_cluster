@@ -100,20 +100,20 @@ services:
   python:
     build:
       context: .
-    container_name: collatz_conjecture
-    image: naveitayx/collatz_conjecture:1.0.0
+    container_name: python
+    image: naveitayx/python:1.0.0
     ports:
       - 5000:5000
 ```
 
 ###### 5. Build Process
 ```
-$ docker-compose build collatz_conjecture
+$ docker-compose build python
 ```
 
 ###### 6. Starting the app
 ```
-docker-compose up collatz_conjecture
+docker-compose up python
 ```
 
 ###### 7. Install Kubernetes command-line tool (kubectl) and add it to PATH env variables
