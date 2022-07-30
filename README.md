@@ -18,8 +18,8 @@ This reposity will guide you how to set an application containerized and deploye
   - 6. Starting the app
   - 7. Install Kubernetes command-line tool (kubectl) and add it to PATH env variables
   - 8. Kubernetes
-       - test
-       - pl
+       - Install
+       - Test
 
 <p>
 <br />
@@ -120,6 +120,12 @@ docker-compose up collatz_conjecture
 [kubernetes.io](https://kubernetes.io/docs/tasks/tools/install-kubectl-windows/)
 
 ![title](/guide_images/kubectl.PNG)
+
+###### 8. Kubernetes
+Install Kubernetes via docker desktop.
+
+![title](/guide_images/Kubernetes.PNG)
+
 
 
 
