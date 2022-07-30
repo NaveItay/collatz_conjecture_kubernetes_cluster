@@ -40,5 +40,5 @@ def collatz_conjecture(number):
         return number // 2
     elif number % 2 == 1:
         return number * 3 + 1
-
 ```
+I created a web framework for building the API with fastAPI.
