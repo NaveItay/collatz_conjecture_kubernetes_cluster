@@ -12,6 +12,8 @@ This reposity will guide you how to set an application containerized and deploye
 - B. Set up a kubernetes cluster and expose the apllication as a service. 
   - 1. Check if virtualization is supported in your machine
   - 2. Install docker desktop
+  - 3. Create a dockerfile
+  - 4. Create a docker-compose.yaml
 
 <p>
 <br />
@@ -69,3 +71,32 @@ If not, enable it via BIOS.
 
 
 ###### 2. Sign in and install [docker desktop](https://docs.docker.com/desktop/install/windows-install/)
+
+###### 3. Create a dockerfile
+```
+FROM python:3.7.3-alpine3.9
+
+RUN mkdir -p /app
+WORKDIR /app
+
+COPY ./src/requirements.txt /app/requirements.txt
+RUN pip install -r requirements.txt
+
+COPY ./src/ /app/
+ENV FLASK_APP=server.py
+
+CMD uvicorn server:app --reload --port 5000
+```
+
+###### 4. Create a docker-compose.yaml
+```
+version: "3.4"
+services:
+  python:
+    build:
+      context: .
+    container_name: python
+    image: naveitayx/python:1.0.0
+    ports:
+      - 5000:5000
+```
