@@ -187,6 +187,17 @@ $ kubectl apply -f kubernetes/deployments/deployment.yaml
 ```
 ![title](/guide_images/deployment.PNG)
 
+You'll see deployments got created, check it.
+```
+$ kubectl get deploy
+```
+```
+$ kubectl get pods
+```
+![title](/guide_images/deploy_pods.PNG)
+
+
+
 
 
 
