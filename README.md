@@ -22,6 +22,7 @@ This reposity will guide you how to set an application containerized and deploye
        - Test
   - 9. Kubernetes deployment
   - 10. Enable traffic
+  - 11. Application is live running inside Kubernetes
 
 <p>
 <br />
@@ -226,6 +227,11 @@ Get service.
 kubectl get svc
 ```
 ![title](/guide_images/get_service.PNG)
+
+###### 11. Application is live running inside Kubernetes
+That's all, the application is live running inside Kubernetes. 
+
+![title](/guide_images/application_is_live.PNG)
 
 
 
