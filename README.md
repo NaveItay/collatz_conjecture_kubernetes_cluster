@@ -138,6 +138,8 @@ Now before we start with kubernetes we're gonna want to make sure we push out th
 ```
 $ docker-compose push python
 ```
+![title](/guide_images/push_image_to_docker_reg.PNG)
+
 
 
 
