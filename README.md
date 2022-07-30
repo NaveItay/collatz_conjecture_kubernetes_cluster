@@ -115,6 +115,7 @@ docker-compose up collatz_conjecture
 
 ###### 7. Install Kubernetes command-line tool (kubectl) and add it to PATH env variables
 [kubernetes.io](https://kubernetes.io/docs/tasks/tools/install-kubectl-windows/)
+
 ![title](/guide_images/kubectl.PNG)
 
 
