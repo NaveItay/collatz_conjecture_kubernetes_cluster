@@ -9,13 +9,14 @@ This reposity will guide you how to set an application containerized and deploye
 
 ### Project stages:
 - A. Create a python apllication
-- B. Set up a kubernetes cluster and expose the apllication as a service. 
+- B. Set up a Kubernetes cluster and expose the apllication as a service. 
   - 1. Check if virtualization is supported in your machine
   - 2. Install docker desktop
   - 3. Create a dockerfile
   - 4. Create a docker-compose.yaml
   - 5. Build Process
   - 6. Starting the app
+  - 7. Install Kubernetes command-line tool (kubectl)
 
 <p>
 <br />
@@ -111,3 +112,11 @@ $ docker-compose build collatz_conjecture
 ```
 docker-compose up collatz_conjecture
 ```
+
+###### 7. Install Kubernetes command-line tool (kubectl)
+[kubernetes.io](https://kubernetes.io/docs/tasks/tools/install-kubectl-windows/)
+
+
+
+
+
