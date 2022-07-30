@@ -233,7 +233,12 @@ That's all, the application is live running inside Kubernetes.
 
 ![title](/guide_images/application_is_live.PNG)
 
+<br/><br/>
 
-
-
-
+### References
+* [Collatz conjecture](https://en.wikipedia.org/wiki/Collatz_conjecture)
+* [Kubernetes Documentation](https://kubernetes.io/docs/home/)
+* [Docker desktop](https://docs.docker.com/desktop/install/windows-install/)
+* [fastAPI in Containers](https://fastapi.tiangolo.com/deployment/docker/)
+* [TechWolrd with Nana channel](https://www.youtube.com/watch?v=s_o8dwzRlu4)
+* [That DevOps Guy channel](https://www.youtube.com/watch?v=d1ZMnV4yM1U)
