@@ -132,6 +132,8 @@ $ kubectl get nodes
 ```
 ![title](/guide_images/get_nodes.PNG)
 
+You should see docker for desktop comes with single node kubernetes cluster
+
 
 
 
