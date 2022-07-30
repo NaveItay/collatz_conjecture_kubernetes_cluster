@@ -103,6 +103,6 @@ services:
 
 ###### 5. Build Process
 ```
-$ docker-compose build python
+$ docker-compose build collatz_conjecture
 ```
 
