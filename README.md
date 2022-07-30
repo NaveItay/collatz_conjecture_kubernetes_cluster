@@ -197,4 +197,37 @@ $ kubectl get pods
 ```
 ![title](/guide_images/deploy_pods.PNG)
 
+###### 10. Enable traffic
+Create a service.yaml
+```
+apiVersion: v1
+kind: Service
+metadata:
+  name: example-service
+spec:
+  type: LoadBalancer
+  selector:
+    app: example-app
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 8000
+```
+Let's map the 8000 port to 80.
+
+Apply the service.
+```
+kubectl apply -f kubernetes/services/service.yaml
+```
+![title](/guide_images/service.PNG)
+
+Get service.
+```
+kubectl get svc
+```
+![title](/guide_images/get_service.PNG)
+
+
+
+
 
