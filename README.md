@@ -1,4 +1,4 @@
-# kubernetes cluster setup guide
+# Kubernetes cluster setup guide
 ![title](/guide_images/intro.png)
 
 ## introduction
