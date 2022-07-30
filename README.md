@@ -56,7 +56,7 @@ Open cmd and write
 ```
 systeminfo
 ```
-![title](/guide_images/virtualization_is_supported.png)
+![title](/guide_images/virtualization_is_supported.PNG)
 if virtualization in firmware is enabled, you are fine.
 If not, enable it via BIOS.
 
