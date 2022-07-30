@@ -10,7 +10,8 @@ This reposity will guide you how to set an application containerized and deploye
 ### Project stages:
 1. Create a python apllication
 2. Set up a kubernetes cluster and expose the code as a service. 
-   -  Check if virtualization is supported in your machine
+   - Install docker desktop
+   - Check if virtualization is supported in your machine
 
 #
 ###### 1. Create a python apllication
