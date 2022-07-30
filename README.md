@@ -43,3 +43,12 @@ def collatz_conjecture(number):
         return number * 3 + 1
 ```
 I created a web framework for building the API with fastAPI.
+
+<p>
+<br />
+</p>
+
+#
+###### 2. Set up a kubernetes cluster and expose the code as a service. 
+
+- Install docker desktop [Link](https://docs.docker.com/desktop/install/windows-install/)
