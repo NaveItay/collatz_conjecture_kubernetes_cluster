@@ -26,7 +26,7 @@ app = FastAPI()
 
 
 @app.get("/collatz_conjecture")
-def clean(number: int):
+def get_collatz_conjecture(number: int):
     interactions_number = 0
     answer = "Answer: "
 
