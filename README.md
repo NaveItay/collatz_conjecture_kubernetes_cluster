@@ -21,6 +21,7 @@ This reposity will guide you how to set an application containerized and deploye
        - Install
        - Test
   - 9. Kubernetes deployment
+  - 10. Enable traffic
 
 <p>
 <br />
@@ -195,14 +196,5 @@ $ kubectl get deploy
 $ kubectl get pods
 ```
 ![title](/guide_images/deploy_pods.PNG)
-
-
-
-
-
-
-
-
-
 
 
