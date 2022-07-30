@@ -58,9 +58,8 @@ I created a web framework for building the API with fastAPI.
 #
 
 ###### 1. Check if virtualization is supported in your machine
-Cmd command
 ```
-systeminfo
+$ systeminfo
 ```
 ![title](/guide_images/virtualization_is_supported.PNG)
 
@@ -103,8 +102,7 @@ services:
 ```
 
 ###### 5. Build Process
-Cmd command
 ```
-docker-compose build python
+$ docker-compose build python
 ```
 
