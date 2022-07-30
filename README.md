@@ -14,6 +14,7 @@ This reposity will guide you how to set an application containerized and deploye
   - 2. Install docker desktop
   - 3. Create a dockerfile
   - 4. Create a docker-compose.yaml
+  - 5. Build Process
 
 <p>
 <br />
@@ -57,7 +58,7 @@ I created a web framework for building the API with fastAPI.
 #
 
 ###### 1. Check if virtualization is supported in your machine
-Open cmd and write
+Cmd command
 ```
 systeminfo
 ```
@@ -100,3 +101,10 @@ services:
     ports:
       - 5000:5000
 ```
+
+###### 5. Build Process
+Cmd command
+```
+docker-compose build python
+```
+
