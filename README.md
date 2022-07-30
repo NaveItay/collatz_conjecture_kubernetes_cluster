@@ -17,7 +17,7 @@ This reposity will guide you how to set an application containerized and deploye
 <br />
 </p>
 
-###### Create a python apllication
+#### Create a python apllication
 #
 ```
 from fastapi import FastAPI
@@ -51,7 +51,7 @@ I created a web framework for building the API with fastAPI.
 <br />
 </p>
 
-###### Set up a kubernetes cluster and expose the code as a service. 
+#### Set up a kubernetes cluster and expose the code as a service. 
 #
 
 ###### 1. Check if virtualization is supported in your machine
