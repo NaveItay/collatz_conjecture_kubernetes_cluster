@@ -10,14 +10,14 @@ This reposity will guide you how to set an application containerized and deploye
 ### Project stages:
 - A. Create a python apllication
 - B. Set up a kubernetes cluster and expose the apllication as a service. 
-  - 1.Check if virtualization is supported in your machine
-  - 2.Install docker desktop
+  - 1. Check if virtualization is supported in your machine
+  - 2. Install docker desktop
 
 <p>
 <br />
 </p>
 
-###### 1. Create a python apllication
+###### Create a python apllication
 #
 ```
 from fastapi import FastAPI
@@ -51,10 +51,10 @@ I created a web framework for building the API with fastAPI.
 <br />
 </p>
 
-###### 2. Set up a kubernetes cluster and expose the code as a service. 
+###### Set up a kubernetes cluster and expose the code as a service. 
 #
 
-###### Check if virtualization is supported in your machine
+###### 1. Check if virtualization is supported in your machine
 Open cmd and write
 ```
 systeminfo
@@ -68,4 +68,4 @@ If not, enable it via BIOS.
 
 
 
-###### Sign in and install [docker desktop](https://docs.docker.com/desktop/install/windows-install/)
+###### 2. Sign in and install [docker desktop](https://docs.docker.com/desktop/install/windows-install/)
