@@ -132,7 +132,12 @@ $ kubectl get nodes
 ```
 ![title](/guide_images/get_nodes.PNG)
 
-You should see docker for desktop comes with single node kubernetes cluster
+You should see docker for desktop comes with single node kubernetes cluster.
+
+Now before we start with kubernetes we're gonna want to make sure we push out the image to docker registry.
+```
+$ docker-compose push python
+```
 
 
 
