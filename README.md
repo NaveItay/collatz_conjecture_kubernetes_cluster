@@ -1,5 +1,5 @@
 # Collatz conjecture kubernetes cluster
-![title](/guide_images/intro.PNG)
+![title](/guide_images/intro.png)
 
 ## introduction
 
