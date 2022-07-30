@@ -17,6 +17,9 @@ This reposity will guide you how to set an application containerized and deploye
   - 5. Build Process
   - 6. Starting the app
   - 7. Install Kubernetes command-line tool (kubectl) and add it to PATH env variables
+  - 8. Kubernetes
+       - test
+       - pl
 
 <p>
 <br />
