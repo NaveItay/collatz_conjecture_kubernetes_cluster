@@ -51,4 +51,4 @@ I created a web framework for building the API with fastAPI.
 #
 ###### 2. Set up a kubernetes cluster and expose the code as a service. 
 
-- Sign in and install [docker desktop](https://docs.docker.com/desktop/install/windows-install/)
+- Sign in and install [docker desktop](https://docs.docker.com/desktop/install/windows-install/).
