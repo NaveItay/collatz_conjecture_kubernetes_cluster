@@ -20,6 +20,7 @@ This reposity will guide you how to set an application containerized and deploye
   - 8. Kubernetes
        - Install
        - Test
+  - 9. Kubernetes deployment
 
 <p>
 <br />
@@ -139,6 +140,53 @@ Now before we start with kubernetes we're gonna want to make sure we push out th
 $ docker-compose push python
 ```
 ![title](/guide_images/push_image_to_docker_reg.PNG)
+
+###### 9. Kubernetes deployment
+Create a deployment.yaml
+```
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: example-deploy
+  labels:
+    app: example-app
+    test: test
+spec:
+  selector:
+    matchLabels:
+      app: example-app
+  replicas: 2
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxSurge: 1
+      maxUnavailable: 0
+  template:
+    metadata:
+      labels:
+        app: example-app
+    spec:
+      containers:
+      - name: example-app
+        image: naveitayx/python:1.0.0
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 80
+        resources:
+          requests:
+            memory: "64Mi"
+            cpu: "50m"
+          limits:
+            memory: "256Mi"
+            cpu: "500m"
+
+```
+Define
+```
+$ kubectl apply -f kubernetes/deployments/deployment.yaml
+```
+![title](/guide_images/deployment.PNG)
+
 
 
 
