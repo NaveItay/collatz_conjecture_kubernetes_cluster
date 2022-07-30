@@ -1,12 +1,10 @@
-FROM python:3.7.3-alpine3.9
+FROM python:3.9
 
-RUN mkdir -p /app
-WORKDIR /app
+WORKDIR /code
 
-COPY ./src/requirements.txt /app/requirements.txt
-RUN pip install -r requirements.txt
+COPY ./src/requirements.txt /code/requirements.txt
+RUN pip install --no-cache-dir --upgrade -r /code/requirements.txt
 
-COPY ./src/ /app/
-ENV FLASK_APP=server.py
+COPY ./src /code/app
 
-CMD uvicorn server:app --reload --port 5000
+CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000"]
