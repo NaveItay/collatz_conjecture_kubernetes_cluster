@@ -15,6 +15,7 @@ This reposity will guide you how to set an application containerized and deploye
   - 3. Create a dockerfile
   - 4. Create a docker-compose.yaml
   - 5. Build Process
+  - 6. Starting the app
 
 <p>
 <br />
@@ -106,3 +107,7 @@ services:
 $ docker-compose build collatz_conjecture
 ```
 
+###### 6. Starting the app
+```
+docker-compose up collatz_conjecture
+```
