@@ -8,10 +8,10 @@ A Kubernetes cluster is a set of nodes that run containerized applications. Cont
 This reposity will guide you how to set an application containerized and deployed on Kubernetes.
 
 ### Project stages:
-A. Create a python apllication
-B. Set up a kubernetes cluster and expose the apllication as a service. 
-   - 1.Check if virtualization is supported in your machine
-   - 2.Install docker desktop
+- A. Create a python apllication
+- B. Set up a kubernetes cluster and expose the apllication as a service. 
+  - 1.Check if virtualization is supported in your machine
+  - 2.Install docker desktop
 
 <p>
 <br />
